@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TcpClient">
+      <UniqueIdentifier>{916c4ef1-a7d4-4a3a-8939-d81297708de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerClass">
+      <UniqueIdentifier>{5d4e3464-587e-4188-8b51-d2fb16092a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{4f091a34-9f05-4f2a-8a24-e846e3e8ca7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Card">
+      <UniqueIdentifier>{481c7e45-ed56-47cd-ae40-e985110ba179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Jokbo">
+      <UniqueIdentifier>{88d422bd-0307-4d0c-9aa1-6b6633b44a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{65a6047a-8c9d-42b2-a855-ab780c3d0cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{1119d8ca-e8f2-4503-bfc8-c88a1a5e080e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrintManager">
+      <UniqueIdentifier>{51fd50a0-6b94-4df5-84b6-1266c39610cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputManager">
+      <UniqueIdentifier>{1200bd69-c88f-4606-9c1b-d79b5429ea8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConsoleManager">
+      <UniqueIdentifier>{2211eb44-7b6f-4c46-ad0b-ddf87440c6d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TcpClient.cpp">
+      <Filter>TcpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>PlayerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Jokbo.cpp">
+      <Filter>Jokbo</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="PrintManager.cpp">
+      <Filter>PrintManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleManager.cpp">
+      <Filter>ConsoleManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TcpClient.h">
+      <Filter>TcpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>PlayerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Jokbo.h">
+      <Filter>Jokbo</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Packet\PacketC2S.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Packet\PacketS2C.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintManager.h">
+      <Filter>PrintManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleManager.h">
+      <Filter>ConsoleManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
