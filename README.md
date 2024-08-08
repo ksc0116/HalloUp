@@ -1,15 +1,8 @@
 # 제가 작업한 영역은 다음과 같습니다.
 
-[콘솔창과 관련된 설정값들을 바꾸는 Manager Class입니다.](https://github.com/ksc0116/HalloUp/blob/main/HalloUp/HalloUp/ConsoleManager.h)
-1. HalloUp/HalloUp/ConsoleManaher.h
-2. HalloUp/HalloUp/ConsoleManager.cpp
-3. HalloUp/HalloUp/GameManager.h
-4. HalloUp/HalloUp/GameManager.cpp
-5. HalloUp/HalloUp/InputManager.h
-6. HalloUp/HalloUp/InputManager.cpp
-7. HalloUp/HalloUp/Player.h
-8. HalloUp/HalloUp/Player.cpp
-9. HalloUp/HalloUp/PrintManager.h
-10. HalloUp/HalloUp/PrintManager.cpp
-11. HalloUp/HalloUp/TcpClient.h
-12. HalloUp/HalloUp/TcpClient.cpp
+1. [콘솔창과 관련된 설정값들을 바꾸는 Manager Class입니다.](https://github.com/ksc0116/HalloUp/blob/main/HalloUp/HalloUp/ConsoleManager.h)
+2. [전반적인 게임의 흐름을 관리하는 Manager Class입니다.](https://github.com/ksc0116/HalloUp/blob/main/HalloUp/HalloUp/GameManager.h)
+3. [유저의 키 입력을 받아 관리하는 Manager Class입니다.](https://github.com/ksc0116/HalloUp/blob/main/HalloUp/HalloUp/InputManager.h)
+4. [플레이어의 정보를 기록하고 플레이어의 역할을 수행하는 Class입니다.](https://github.com/ksc0116/HalloUp/blob/main/HalloUp/HalloUp/Player.h)
+5. [콘솔창에 값을 출력하는 Manager Class입니다.](https://github.com/ksc0116/HalloUp/blob/main/HalloUp/HalloUp/PrintManager.h)
+6. [서버와 패킷을 주고 받는 Class입니다.](https://github.com/ksc0116/HalloUp/blob/main/HalloUp/HalloUp/TcpClient.h)
