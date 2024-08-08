@@ -1,5 +1,6 @@
 # 제가 작업한 영역은 다음과 같습니다.
 
+[콘솔창과 관련된 설정값들을 바꾸는 Manager Class입니다.]()
 1. HalloUp/HalloUp/ConsoleManaher.h
 2. HalloUp/HalloUp/ConsoleManager.cpp
 3. HalloUp/HalloUp/GameManager.h
